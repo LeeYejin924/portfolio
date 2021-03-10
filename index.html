@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이예진 포트폴리오</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/pf.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                menu: '#gnblist',
+                anchors: ['HOME', 'ABOUT', 'PORTFOLIO1', 'PORTFOLIO2', 'CONTACT'],
+                sectionsColor: ['#000', '#fff', '#f5f3cd', 'blue', 'yellow'],
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo">
+                <span class="blind">이예진 포트폴리오</span>
+            </h1>
+            <nav id="gnb">
+                <ul id="gnblist">
+                    <li data-menuanchor="HOME">
+                        <a href="#HOME">HOME</a>
+                    </li>
+                    <li data-menuanchor="ABOUT">
+                        <a href="#ABOUT">ABOUT</a>
+                    </li>
+                    <li data-menuanchor="PORTFOLIO1">
+                        <a href="#PORTFOLIO1">PORTFOLIO1</a>
+                    </li>
+                    <li data-menuanchor="PORTFOLIO2">
+                        <a href="#PORTFOLIO2">PORTFOLIO2</a>
+                    </li>
+                    <li data-menuanchor="CONTACT">
+                        <a href="#CONTACT">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="fullpage">
+            <section class="section" id="cnt1">
+                <h2>
+                    <span class="tit">
+                        <span>L</span><span>E</span><span>E</span><span>Y</span><span>E</span><span>J</span><span>I</span><span>N</span>
+                    </span>
+                    <span class="tit">
+                        <span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span>
+                    </span>
+                </h2>
+                <div class="yellow_bg"></div>
+                <img class="photo" src="imges/home2.png" alt="">
+                <svg version="1.1" id="shape" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="544px" height="627.154px"
+                    viewBox="0 0 544 627.154" enable-background="new 0 0 544 627.154" xml:space="preserve">
+                    <polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="543.5,470.077 272,626.577 0.5,470.077 0.5,157.077 
+	                            272,0.577 543.5,157.077 " />
+                </svg>
+            </section>
+            <section class="section" id="cnt2">
+                <h2 class="subject_tit">ABOUT</h2>
+                <div class="area">
+                    <div class="about_photo"><img src="imges/about.jpg" alt=""></div>
+                    <div class="text">
+                        <div class="about">
+                            <strong>With heart in art</strong>
+                            <p>예술에 마음을 담다. 웹 퍼블리셔, 이예진입니다.</p>
+                            <h3>Profile</h3>
+                            <ul>
+                                <li>이예진 LEE YE JIN</li>
+                                <li>1998. 09. 24</li>
+                                <li>서울 특별시 강동구</li>
+                            </ul>
+                            <h3>Education</h3>
+                            <ul>
+                                <li>2020. 09. - 2021. 03. 웹디자인/웹퍼블리셔 과정 수료</li>
+                                <li>2017. 03. - 2020. 02. 신구대학교 미디어콘텐츠과 졸업</li>
+                            </ul>
+                            <h3>License</h3>
+                            <ul>
+                                <li>2020. 12. GTQ 그래픽기술자격 1급</li>
+                            </ul>
+                            <button class="view" type="button">
+                                Skill<img src="imges/arrow.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="skill">
+                            <strong>Skill</strong>
+                            <h3>Markup</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>jQuery</li>
+                            </ul>
+                            <h3>Design</h3>
+                            <ul>
+                                <li>Ps</li>
+                                <li>Ai</li>
+                            </ul>
+                            <button class="view" type="button">
+                                About<img src="imges/arrow.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="cnt3">
+                <h2 class="subject_tit">PORTFOLIO</h2>
+                <div class="swiper-container" id="mainVisual">
+                    <div class="swiper-wrapper">
+                        <!-- 슬라이더 상세 내용 -->
+                        <div class="swiper-slide slide1">
+                            <div class="yellow_bg2"></div>
+                            <div class="txtbox">
+                                <h3>CJ SPAM <span>website redisign</span></h3>
+                                <div>
+                                    <strong>작업일시</strong>
+                                    <p>2020.12</p>
+                                </div>
+                                <div>
+                                    <strong>프로그램</strong>
+                                    <p>Adobe Photoshop<br>Adobe Illustrator</p>
+                                </div>
+                                <div class="block">
+                                   <strong>색상</strong>
+                                   <ul>
+                                       <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                                       <li><span class="blind">노란색 #ffde52</span></li>
+                                       <li><span class="blind">파란색 #171e48</span></li>
+                                   </ul>
+                                </div>
+                                <div>
+                                    <strong class="blind">컨셉</strong>
+                                    <p>들어가야 할 텍스트를 입력하세요.</p>
+                                </div>
+                                <div class="btn">
+                                    <a href="" class="link">
+                                        <span>더보기</span>
+                                      </a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="imges/work/work1_thum.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <div class="yellow_bg2"></div>
+                            <div class="txtbox">
+                                <h3>HOLIKA HOLIKA <span>website redisign</span></h3>
+                                <div>
+                                    <strong>작업일시</strong>
+                                    <p>2020.12</p>
+                                </div>
+                                <div>
+                                    <strong>프로그램</strong>
+                                    <p>Adobe Photoshop<br>Adobe Illustrator</p>
+                                </div>
+                                <div>
+                                   <strong>색상</strong>
+                                   <ul>
+                                       <li><span class="blind">회색 #999</span></li>
+                                       <li><span class="blind">노란색</span></li>
+                                       <li><span class="blind">파란색</span></li>
+                                   </ul>
+                                </div>
+                                <div>
+                                    <strong class="blind">컨셉</strong>
+                                    <p>들어가야 할 텍스트를 입력하세요.</p>
+                                </div>
+                                <div class="btn"><a href="">더보기</a></div>
+                            </div>
+                            <div class="work">
+                                <img src="imges/work/work1_thum.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide3">
+                            <div class="yellow_bg2"></div>
+                            <div class="txtbox">
+                                <h3>Celliviate <span>website redisign</span></h3>
+                                <div>
+                                    <strong>작업일시</strong>
+                                    <p>2020.12</p>
+                                </div>
+                                <div>
+                                    <strong>프로그램</strong>
+                                    <p>Adobe Photoshop<br>Adobe Illustrator</p>
+                                </div>
+                                <div>
+                                   <strong>색상</strong>
+                                   <ul>
+                                       <li><span class="blind">회색 #999</span></li>
+                                       <li><span class="blind">노란색</span></li>
+                                       <li><span class="blind">파란색</span></li>
+                                   </ul>
+                                </div>
+                                <div>
+                                    <strong class="blind">컨셉</strong>
+                                    <p>들어가야 할 텍스트를 입력하세요.</p>
+                                </div>
+                                <div class="btn"><a href="">더보기</a></div>
+                            </div>
+                            <div class="work">
+                                <img src="imges/work/work1_thum.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="controller">
+                        <!-- bullets, fraction 타입의 네비게이션 -->
+                        <div class="swiper-pagination"></div>
+            
+                        <!-- 이전과 다음 버튼 -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+            
+                        <!-- play, pause 버튼 - 기존 옵션에서는 없어서 별도로 추가, aria-label="요소의 제목"  -->
+                        <button type="button" class="swiper-button-play play_pause" aria-label="자동실행">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button type="button" class="swiper-button-pause play_pause" aria-label="일시정지">
+                            <i class="fas fa-pause"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="cnt4"></section>
+            <section class="section" id="cnt5"></section>
+        </div>
+    </div>
+</body>
+
+</html>
