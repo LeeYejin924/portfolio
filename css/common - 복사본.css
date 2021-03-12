@@ -104,27 +104,16 @@ body{font-family: "Noto Sans KR"; font-size: 16px; color: #444;}
 /* 본문4 */
 #cnt4 .subject_tit {position: absolute; top: 100px; left: 0; width: 100%;}
 #cnt4 .area {position: relative; height: 672px;}
-#cnt4 .area button {position: absolute; }
-#btn1 {left: 0; top: 150px;}
-#btn2 {left: 274px; top: 303px;}
-#btn3 {left: 548px; top: 150px;}
-#btn4 {left: 822px; top: 303px;}
-#btn5 {left: 1096px; top: 150px;}
+#cnt4 .area svg {position: absolute; }
+#design1 {left: 0; top: 150px;}
+#design2 {left: 274px; top: 303px;}
+#design3 {left: 548px; top: 150px;}
+#design4 {left: 822px; top: 303px;}
+#design5 {left: 1096px; top: 150px;}
 
-
-/* 열려질 상세 모달 */
-#dim, .md_cnt{position: fixed;z-index: 1000;}
-#dim{display: none;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,.5);}
-.md_cnt{visibility: hidden;width: 1400px;height: 750px;background: #fff;padding: 50px;top: 50%;left: 50%;transform: translate(-50%, -50%);}
-.md_cnt .mdclose_btn{position: absolute;right: 10px;top: 10px;width: 50px;height: 50px;background: pink;}
-.mdphoto{position: absolute; top: 5%; left: 60vh;}
+#design1 #photo-mask{stroke: #000; stroke-width: 1;}
 
 /* 본문5 */
-#cnt5 .subject_tit {position: absolute; top: 100px; left: 0; width: 100%;}
-#cnt5 .area {position: relative; height: 672px; text-align: center;}
-#cnt5 .my {margin-top: 250px;}
-#cnt5 .mybox {margin-top: 150px; line-height: 2;}
-#cnt5 .mybox .mytit {font-size: 30px; }
 
 @keyframes bounce {
     0% {

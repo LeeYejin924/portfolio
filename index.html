@@ -14,12 +14,13 @@
     <script src="js/fullpage.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/pf.js"></script>
+    <script src="js/modal.js"></script>
     <script>
         $(document).ready(function () {
             $('#fullpage').fullpage({
                 menu: '#gnblist',
                 anchors: ['HOME', 'ABOUT', 'PORTFOLIO1', 'PORTFOLIO2', 'CONTACT'],
-                sectionsColor: ['#000', '#fff', '#f5f3cd', 'blue', 'yellow'],
+                sectionsColor: ['#000', '#fff', '#f5f3cd', '#f5f3cd', '#fff'],
             });
         });
     </script>
@@ -77,7 +78,7 @@
                     <div class="text">
                         <div class="about">
                             <strong>With heart in art</strong>
-                            <p>예술에 마음을 담다. 웹 퍼블리셔, 이예진입니다.</p>
+                            <p>예술에 마음을 담다. 웹 디자이너, 이예진입니다.</p>
                             <h3>Profile</h3>
                             <ul>
                                 <li>이예진 LEE YE JIN</li>
@@ -135,12 +136,12 @@
                                     <p>Adobe Photoshop<br>Adobe Illustrator</p>
                                 </div>
                                 <div class="block">
-                                   <strong>색상</strong>
-                                   <ul>
-                                       <li><span class="blind">밝은 회색 #f7f7f7</span></li>
-                                       <li><span class="blind">노란색 #ffde52</span></li>
-                                       <li><span class="blind">파란색 #171e48</span></li>
-                                   </ul>
+                                    <strong>색상</strong>
+                                    <ul>
+                                        <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                                        <li><span class="blind">노란색 #ffde52</span></li>
+                                        <li><span class="blind">파란색 #171e48</span></li>
+                                    </ul>
                                 </div>
                                 <div>
                                     <strong class="blind">컨셉</strong>
@@ -149,7 +150,7 @@
                                 <div class="btn">
                                     <a href="" class="link">
                                         <span>더보기</span>
-                                      </a>
+                                    </a>
                                 </div>
                             </div>
                             <div class="work">
@@ -169,12 +170,12 @@
                                     <p>Adobe Photoshop<br>Adobe Illustrator</p>
                                 </div>
                                 <div>
-                                   <strong>색상</strong>
-                                   <ul>
-                                       <li><span class="blind">회색 #999</span></li>
-                                       <li><span class="blind">노란색</span></li>
-                                       <li><span class="blind">파란색</span></li>
-                                   </ul>
+                                    <strong>색상</strong>
+                                    <ul>
+                                        <li><span class="blind">회색 #999</span></li>
+                                        <li><span class="blind">노란색</span></li>
+                                        <li><span class="blind">파란색</span></li>
+                                    </ul>
                                 </div>
                                 <div>
                                     <strong class="blind">컨셉</strong>
@@ -199,12 +200,12 @@
                                     <p>Adobe Photoshop<br>Adobe Illustrator</p>
                                 </div>
                                 <div>
-                                   <strong>색상</strong>
-                                   <ul>
-                                       <li><span class="blind">회색 #999</span></li>
-                                       <li><span class="blind">노란색</span></li>
-                                       <li><span class="blind">파란색</span></li>
-                                   </ul>
+                                    <strong>색상</strong>
+                                    <ul>
+                                        <li><span class="blind">회색 #999</span></li>
+                                        <li><span class="blind">노란색</span></li>
+                                        <li><span class="blind">파란색</span></li>
+                                    </ul>
                                 </div>
                                 <div>
                                     <strong class="blind">컨셉</strong>
@@ -217,15 +218,15 @@
                             </div>
                         </div>
                     </div>
-            
+
                     <div class="controller">
                         <!-- bullets, fraction 타입의 네비게이션 -->
                         <div class="swiper-pagination"></div>
-            
+
                         <!-- 이전과 다음 버튼 -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
-            
+
                         <!-- play, pause 버튼 - 기존 옵션에서는 없어서 별도로 추가, aria-label="요소의 제목"  -->
                         <button type="button" class="swiper-button-play play_pause" aria-label="자동실행">
                             <i class="fas fa-play"></i>
@@ -236,10 +237,254 @@
                     </div>
                 </div>
             </section>
-            <section class="section" id="cnt4"></section>
-            <section class="section" id="cnt5"></section>
+            <section class="section" id="cnt4">
+                <h2 class="subject_tit">PORTFOLIO</h2>
+                <div class="area">
+                    <button id="btn1" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal1">
+                        <svg version="1.1" id="design1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
+                            viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
+                            <defs>
+                                <mask id="photo-mask1">
+                                    <polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10"
+                                        points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
+                                </mask>
+                            </defs>
+                            <image mask="url(#photo-mask1)" xlink:href="./imges/design2/design1.jpg" x="-80px"
+                                y="-50px" />
+                        </svg>
+                    </button>
+                    <button id="btn2" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal2">
+                        <svg version="1.1" id="design2" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
+                            viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
+                            <defs>
+                                <mask id="photo-mask2">
+                                    <polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10"
+                                        points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
+                                </mask>
+                            </defs>
+                            <image mask="url(#photo-mask2)" xlink:href="./imges/design2/design2.jpg" x="-1px"
+                                y="-50px" />
+                        </svg>
+                    </button>
+                    <button id="btn3" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal3">
+                        <svg version="1.1" id="design3" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
+                            viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
+                            <defs>
+                                <mask id="photo-mask3">
+                                    <polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10"
+                                        points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
+                                </mask>
+                            </defs>
+                            <image mask="url(#photo-mask3)" xlink:href="./imges/design2/design3-1.jpg" x="-80px"
+                                y="-10px" />
+                        </svg>
+                    </button>
+                    <button id="btn4" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal4">
+                        <svg version="1.1" id="design4" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
+                            viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
+                            <defs>
+                                <mask id="photo-mask4">
+                                    <polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10"
+                                        points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
+                                </mask>
+                            </defs>
+                            <image mask="url(#photo-mask5)" xlink:href="./imges/design2/design4.jpg" x="-1px"
+                                y="-50px" />
+                        </svg>
+                    </button>
+                    <button id="btn5" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal5">
+                        <svg version="1.1" id="design5" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
+                            viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
+                            <defs>
+                                <mask id="photo-mask5">
+                                    <polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10"
+                                        points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
+                                </mask>
+                            </defs>
+                            <image mask="url(#photo-mask5)" xlink:href="./imges/design2/design5-1.jpg" x="-80px"
+                                y="-20px" />
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            <section class="section" id="cnt5">
+                <h2 class="subject_tit">CONTACT</h2>
+                <div class="area">
+                    <div class="my">
+                        <svg version="1.1" id="mysvg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px" height="142.092px"
+                            viewBox="0 0 160 142.092" enable-background="new 0 0 160 142.092" xml:space="preserve">
+                            <defs>
+                                <mask id="my-mask1">
+                                    <polygon fill="#F78E33"
+                                        points="40,142.092 0,71.046 40,0 120,0 160,71.046 120,142.092 " />
+                                </mask>
+                            </defs>
+                            <image mask="url(#my-mask1)" xlink:href="./imges/design2/design4.jpg" x="-80px"
+                                y="-50px" />
+                        </svg>
+                    </div>
+                    <div class="mybox">
+                        <p class="mytit">
+                            <span>T</span><span>H</span><span>A</span><span>N</span><span>K</span><span>S</span> <span>F</span><span>O</span><span>R</span> <span>W</span><span>A</span><span>T</span><span>C</span><span>H</span><span>I</span><span>N</span><span>G</span></p>
+                        <strong>늘 고민하고, 발전하는 디자이너가 되겠습니다.</strong>
+                        <p>해당 사이트는 1920*1080 해상도와 크롬에 최적화 되었으며,<br>상업적 용도가 아닌 개인 포트폴리오 사이트로 제작되었습니다.</p>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
+    <div id="modal1" class="md_cnt">
+        <div class="txtbox">
+            <h3>CJ SPAM <span>website redisign</span></h3>
+            <div>
+                <strong>작업일시</strong>
+                <p>2020.12</p>
+            </div>
+            <div>
+                <strong>프로그램</strong>
+                <p>Adobe Photoshop<br>Adobe Illustrator</p>
+            </div>
+            <div class="block">
+                <strong>색상</strong>
+                <ul>
+                    <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                    <li><span class="blind">노란색 #ffde52</span></li>
+                    <li><span class="blind">파란색 #171e48</span></li>
+                </ul>
+            </div>
+            <div>
+                <strong class="blind">컨셉</strong>
+                <p>들어가야 할 텍스트를 입력하세요.</p>
+            </div>
+        </div>
+        <div class="mdphoto">
+            <img src="imges/work/work1_thum.jpg" alt="">
+        </div>
+        <button class="mdclose_btn last" type="button">닫기</button>
+    </div>
+    <div id="modal2" class="md_cnt">
+        <div class="txtbox">
+            <h3>CJ SPAM <span>website redisign</span></h3>
+            <div>
+                <strong>작업일시</strong>
+                <p>2020.12</p>
+            </div>
+            <div>
+                <strong>프로그램</strong>
+                <p>Adobe Photoshop<br>Adobe Illustrator</p>
+            </div>
+            <div class="block">
+                <strong>색상</strong>
+                <ul>
+                    <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                    <li><span class="blind">노란색 #ffde52</span></li>
+                    <li><span class="blind">파란색 #171e48</span></li>
+                </ul>
+            </div>
+            <div>
+                <strong class="blind">컨셉</strong>
+                <p>들어가야 할 텍스트를 입력하세요.</p>
+            </div>
+        </div>
+        <div class="mdphoto">
+            <img src="imges/work/work1_thum.jpg" alt="">
+        </div>
+        <button class="mdclose_btn last" type="button">닫기</button>
+    </div>
+    <div id="modal3" class="md_cnt">
+        <div class="txtbox">
+            <h3>CJ SPAM <span>website redisign</span></h3>
+            <div>
+                <strong>작업일시</strong>
+                <p>2020.12</p>
+            </div>
+            <div>
+                <strong>프로그램</strong>
+                <p>Adobe Photoshop<br>Adobe Illustrator</p>
+            </div>
+            <div class="block">
+                <strong>색상</strong>
+                <ul>
+                    <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                    <li><span class="blind">노란색 #ffde52</span></li>
+                    <li><span class="blind">파란색 #171e48</span></li>
+                </ul>
+            </div>
+            <div>
+                <strong class="blind">컨셉</strong>
+                <p>들어가야 할 텍스트를 입력하세요.</p>
+            </div>
+        </div>
+        <div class="mdphoto">
+            <img src="imges/work/work1_thum.jpg" alt="">
+        </div>
+        <button class="mdclose_btn last" type="button">닫기</button>
+    </div>
+    <div id="modal4" class="md_cnt">
+        <div class="txtbox">
+            <h3>CJ SPAM <span>website redisign</span></h3>
+            <div>
+                <strong>작업일시</strong>
+                <p>2020.12</p>
+            </div>
+            <div>
+                <strong>프로그램</strong>
+                <p>Adobe Photoshop<br>Adobe Illustrator</p>
+            </div>
+            <div class="block">
+                <strong>색상</strong>
+                <ul>
+                    <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                    <li><span class="blind">노란색 #ffde52</span></li>
+                    <li><span class="blind">파란색 #171e48</span></li>
+                </ul>
+            </div>
+            <div>
+                <strong class="blind">컨셉</strong>
+                <p>들어가야 할 텍스트를 입력하세요.</p>
+            </div>
+        </div>
+        <div class="mdphoto">
+            <img src="imges/work/work1_thum.jpg" alt="">
+        </div>
+        <button class="mdclose_btn last" type="button">닫기</button>
+    </div>
+    <div id="modal5" class="md_cnt">
+        <div class="txtbox">
+            <h3>CJ SPAM <span>website redisign</span></h3>
+            <div>
+                <strong>작업일시</strong>
+                <p>2020.12</p>
+            </div>
+            <div>
+                <strong>프로그램</strong>
+                <p>Adobe Photoshop<br>Adobe Illustrator</p>
+            </div>
+            <div class="block">
+                <strong>색상</strong>
+                <ul>
+                    <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                    <li><span class="blind">노란색 #ffde52</span></li>
+                    <li><span class="blind">파란색 #171e48</span></li>
+                </ul>
+            </div>
+            <div>
+                <strong class="blind">컨셉</strong>
+                <p>들어가야 할 텍스트를 입력하세요.</p>
+            </div>
+        </div>
+        <div class="mdphoto">
+            <img src="imges/work/work1_thum.jpg" alt="">
+        </div>
+        <button class="mdclose_btn last" type="button">닫기</button>
+    </div>
+
 </body>
 
 </html>
