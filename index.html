@@ -19,8 +19,8 @@
         $(document).ready(function () {
             $('#fullpage').fullpage({
                 menu: '#gnblist',
-                anchors: ['HOME', 'ABOUT', 'PORTFOLIO1', 'PORTFOLIO2', 'CONTACT'],
-                sectionsColor: ['#000', '#fff', '#f5f3cd', '#f5f3cd', '#fff'],
+                anchors: ['HOME', 'ABOUT', 'PORTFOLIO1', 'PORTFOLIO2', 'PORTFOLIO3', 'CONTACT'],
+                sectionsColor: ['#000', '#fff', '#f5f3cd', '#fff', '#f5f3cd', '#fff'],
             });
         });
     </script>
@@ -45,6 +45,9 @@
                     </li>
                     <li data-menuanchor="PORTFOLIO2">
                         <a href="#PORTFOLIO2">PORTFOLIO2</a>
+                    </li>
+                    <li data-menuanchor="BOOK">
+                        <a href="#BOOK">BOOK</a>
                     </li>
                     <li data-menuanchor="CONTACT">
                         <a href="#CONTACT">CONTACT</a>
@@ -102,14 +105,28 @@
                             <strong>Skill</strong>
                             <h3>Markup</h3>
                             <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>jQuery</li>
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="html"><span class="blind">80%</span></div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="css"><span class="blind">70%</span></div>
+                                </li>
+                                <li>
+                                    <p>JQuery</p>
+                                    <div class="jquery"><span class="blind">60%</span></div>
+                                </li>
                             </ul>
                             <h3>Design</h3>
                             <ul>
-                                <li>Ps</li>
-                                <li>Ai</li>
+                                <li>
+                                    <p>Ps</p>
+                                    <div class="ps"><span class="blind">90%</span></div>
+                                </li><li>
+                                    <p>Ai</p>
+                                    <div class="ai"><span class="blind">80%</span></div>
+                                </li>
                             </ul>
                             <button class="view" type="button">
                                 About<img src="imges/arrow.svg" alt="">
@@ -148,13 +165,13 @@
                                     <p>들어가야 할 텍스트를 입력하세요.</p>
                                 </div>
                                 <div class="btn">
-                                    <a href="" class="link">
+                                    <a href="detail/page1.html" class="link" target="_blank">
                                         <span>더보기</span>
                                     </a>
                                 </div>
                             </div>
                             <div class="work">
-                                <img src="imges/work/work1_thum.jpg" alt="">
+                                <img src="imges/work/work_1.png" alt="">
                             </div>
                         </div>
                         <div class="swiper-slide slide2">
@@ -181,16 +198,18 @@
                                     <strong class="blind">컨셉</strong>
                                     <p>들어가야 할 텍스트를 입력하세요.</p>
                                 </div>
-                                <div class="btn"><a href="">더보기</a></div>
+                                <a href="detail/page1.html" class="link" target="_blank">
+                                    <span>더보기</span>
+                                </a>
                             </div>
                             <div class="work">
-                                <img src="imges/work/work1_thum.jpg" alt="">
+                                <img src="imges/work/work_2.png" alt="">
                             </div>
                         </div>
                         <div class="swiper-slide slide3">
                             <div class="yellow_bg2"></div>
                             <div class="txtbox">
-                                <h3>Celliviate <span>website redisign</span></h3>
+                                <h3>VETEZE <span>website redisign</span></h3>
                                 <div>
                                     <strong>작업일시</strong>
                                     <p>2020.12</p>
@@ -211,10 +230,80 @@
                                     <strong class="blind">컨셉</strong>
                                     <p>들어가야 할 텍스트를 입력하세요.</p>
                                 </div>
-                                <div class="btn"><a href="">더보기</a></div>
+                                <a href="detail/page1.html" class="link" target="_blank">
+                                    <span>더보기</span>
+                                </a>
                             </div>
                             <div class="work">
-                                <img src="imges/work/work1_thum.jpg" alt="">
+                                <img src="imges/work/work_3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide1">
+                            <div class="yellow_bg2"></div>
+                            <div class="txtbox">
+                                <h3>Celliviate <span>website redisign</span></h3>
+                                <div>
+                                    <strong>작업일시</strong>
+                                    <p>2020.12</p>
+                                </div>
+                                <div>
+                                    <strong>프로그램</strong>
+                                    <p>Adobe Photoshop<br>Adobe Illustrator</p>
+                                </div>
+                                <div class="block">
+                                    <strong>색상</strong>
+                                    <ul>
+                                        <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                                        <li><span class="blind">노란색 #ffde52</span></li>
+                                        <li><span class="blind">파란색 #171e48</span></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <strong class="blind">컨셉</strong>
+                                    <p>들어가야 할 텍스트를 입력하세요.</p>
+                                </div>
+                                <div class="btn">
+                                    <a href="detail/page1.html" class="link" target="_blank">
+                                        <span>더보기</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="imges/work/work_4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide1">
+                            <div class="yellow_bg2"></div>
+                            <div class="txtbox">
+                                <h3>Biscuit & Butter <span>website redisign</span></h3>
+                                <div>
+                                    <strong>작업일시</strong>
+                                    <p>2020.12</p>
+                                </div>
+                                <div>
+                                    <strong>프로그램</strong>
+                                    <p>Adobe Photoshop<br>Adobe Illustrator</p>
+                                </div>
+                                <div class="block">
+                                    <strong>색상</strong>
+                                    <ul>
+                                        <li><span class="blind">밝은 회색 #f7f7f7</span></li>
+                                        <li><span class="blind">노란색 #ffde52</span></li>
+                                        <li><span class="blind">파란색 #171e48</span></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <strong class="blind">컨셉</strong>
+                                    <p>들어가야 할 텍스트를 입력하세요.</p>
+                                </div>
+                                <div class="btn">
+                                    <a href="detail/page1.html" class="link" target="_blank">
+                                        <span>더보기</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="imges/work/work_5-1.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -240,7 +329,7 @@
             <section class="section" id="cnt4">
                 <h2 class="subject_tit">PORTFOLIO</h2>
                 <div class="area">
-                    <button id="btn1" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal1">
+                    <button id="btn1" class="mdopen_btn" aria-haspopup="dialog" title="이벤트 카드 디자인" data-href="#modal1">
                         <svg version="1.1" id="design1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
                             viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
@@ -250,11 +339,11 @@
                                         points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
                                 </mask>
                             </defs>
-                            <image mask="url(#photo-mask1)" xlink:href="./imges/design2/design1.jpg" x="-80px"
+                            <image mask="url(#photo-mask1)" xlink:href="./imges/design2/design1_500.jpg" x="-80px"
                                 y="-50px" />
                         </svg>
                     </button>
-                    <button id="btn2" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal2">
+                    <button id="btn2" class="mdopen_btn" aria-haspopup="dialog" title="이벤트 페이지 디자인" data-href="#modal2">
                         <svg version="1.1" id="design2" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
                             viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
@@ -264,11 +353,11 @@
                                         points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
                                 </mask>
                             </defs>
-                            <image mask="url(#photo-mask2)" xlink:href="./imges/design2/design2.jpg" x="-1px"
-                                y="-50px" />
+                            <image mask="url(#photo-mask2)" xlink:href="./imges/design2/design2_500.jpg" x="-80px"
+                                y="-20px" />
                         </svg>
                     </button>
-                    <button id="btn3" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal3">
+                    <button id="btn3" class="mdopen_btn" aria-haspopup="dialog" title="책 표지 디자인" data-href="#modal3">
                         <svg version="1.1" id="design3" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
                             viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
@@ -278,11 +367,11 @@
                                         points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
                                 </mask>
                             </defs>
-                            <image mask="url(#photo-mask3)" xlink:href="./imges/design2/design3-1.jpg" x="-80px"
+                            <image mask="url(#photo-mask3)" xlink:href="./imges/design2/design3_500.jpg" x="-80px"
                                 y="-10px" />
                         </svg>
                     </button>
-                    <button id="btn4" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal4">
+                    <button id="btn4" class="mdopen_btn" aria-haspopup="dialog" title="캐릭터 상품 디자인" data-href="#modal4">
                         <svg version="1.1" id="design4" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
                             viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
@@ -292,11 +381,11 @@
                                         points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
                                 </mask>
                             </defs>
-                            <image mask="url(#photo-mask5)" xlink:href="./imges/design2/design4.jpg" x="-1px"
-                                y="-50px" />
+                            <image mask="url(#photo-mask5)" xlink:href="./imges/design2/design4-1_500.jpg" x="-50px"
+                                y="0" />
                         </svg>
                     </button>
-                    <button id="btn5" class="mdopen_btn" aria-haspopup="dialog" title="대화상자" data-href="#modal5">
+                    <button id="btn5" class="mdopen_btn" aria-haspopup="dialog" title="쿠폰 디자인" data-href="#modal5">
                         <svg version="1.1" id="design5" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.184px" height="308px"
                             viewBox="0 0 354.184 308" enable-background="new 0 0 354.184 308" xml:space="preserve">
@@ -306,13 +395,28 @@
                                         points="88.859,307.5 0.609,154 88.859,0.5 265.359,0.5 353.609,154 265.359,307.5 " />
                                 </mask>
                             </defs>
-                            <image mask="url(#photo-mask5)" xlink:href="./imges/design2/design5-1.jpg" x="-80px"
+                            <image mask="url(#photo-mask5)" xlink:href="./imges/design2/design5_500.jpg" x="-80px"
                                 y="-20px" />
                         </svg>
                     </button>
                 </div>
             </section>
             <section class="section" id="cnt5">
+                <h2 class="subject_tit">BOOK</h2>
+                <div class="area">
+                    <ul>
+                        <li>
+                            <a href="detail/book1.html" target="_blank">
+                                <img src="imges/book/thumb1.jpg" alt="">
+                                <p>다 함께 걷는 거리</p>
+                            </a>
+                        </li>
+                        <li><a href=""><img src="imges/book/thumb1.jpg" alt=""></a></li>
+                        <li><a href=""><img src="imges/book/thumb1.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="cnt6">
                 <h2 class="subject_tit">CONTACT</h2>
                 <div class="area">
                     <div class="my">
@@ -325,8 +429,8 @@
                                         points="40,142.092 0,71.046 40,0 120,0 160,71.046 120,142.092 " />
                                 </mask>
                             </defs>
-                            <image mask="url(#my-mask1)" xlink:href="./imges/design2/design4.jpg" x="-80px"
-                                y="-50px" />
+                            <image mask="url(#my-mask1)" xlink:href="./imges/narang.jpg" x="-20px"
+                                y="-20px" />
                         </svg>
                     </div>
                     <div class="mybox">
@@ -341,10 +445,10 @@
     </div>
     <div id="modal1" class="md_cnt">
         <div class="txtbox">
-            <h3>CJ SPAM <span>website redisign</span></h3>
+            <h3>이벤트 카드 디자인</h3>
             <div>
                 <strong>작업일시</strong>
-                <p>2020.12</p>
+                <p>2020.11</p>
             </div>
             <div>
                 <strong>프로그램</strong>
@@ -353,9 +457,9 @@
             <div class="block">
                 <strong>색상</strong>
                 <ul>
-                    <li><span class="blind">밝은 회색 #f7f7f7</span></li>
-                    <li><span class="blind">노란색 #ffde52</span></li>
-                    <li><span class="blind">파란색 #171e48</span></li>
+                    <li><span class="blind">노란색 #e2e763</span></li>
+                    <li><span class="blind">민트색 #24c7c8</span></li>
+                    <li><span class="blind">빨간색 #c01f08</span></li>
                 </ul>
             </div>
             <div>
@@ -364,16 +468,16 @@
             </div>
         </div>
         <div class="mdphoto">
-            <img src="imges/work/work1_thum.jpg" alt="">
+            <img src="imges/design2/design1_800.jpg" alt="">
         </div>
-        <button class="mdclose_btn last" type="button">닫기</button>
+        <button class="mdclose_btn last" type="button">X</button>
     </div>
     <div id="modal2" class="md_cnt">
         <div class="txtbox">
-            <h3>CJ SPAM <span>website redisign</span></h3>
+            <h3>이벤트 페이지 디자인</h3>
             <div>
                 <strong>작업일시</strong>
-                <p>2020.12</p>
+                <p>2020.11</p>
             </div>
             <div>
                 <strong>프로그램</strong>
@@ -393,13 +497,13 @@
             </div>
         </div>
         <div class="mdphoto">
-            <img src="imges/work/work1_thum.jpg" alt="">
+            <img src="imges/design2/design2_800.jpg" alt="">
         </div>
-        <button class="mdclose_btn last" type="button">닫기</button>
+        <button class="mdclose_btn last" type="button">X</button>
     </div>
     <div id="modal3" class="md_cnt">
         <div class="txtbox">
-            <h3>CJ SPAM <span>website redisign</span></h3>
+            <h3>책 표지 디자인</h3>
             <div>
                 <strong>작업일시</strong>
                 <p>2020.12</p>
@@ -422,16 +526,16 @@
             </div>
         </div>
         <div class="mdphoto">
-            <img src="imges/work/work1_thum.jpg" alt="">
+            <img src="imges/design2/design3_800.jpg" alt="">
         </div>
-        <button class="mdclose_btn last" type="button">닫기</button>
+        <button class="mdclose_btn last" type="button">X</button>
     </div>
     <div id="modal4" class="md_cnt">
         <div class="txtbox">
-            <h3>CJ SPAM <span>website redisign</span></h3>
+            <h3>캐릭터 상품 디자인</h3>
             <div>
                 <strong>작업일시</strong>
-                <p>2020.12</p>
+                <p>2021.1</p>
             </div>
             <div>
                 <strong>프로그램</strong>
@@ -451,16 +555,16 @@
             </div>
         </div>
         <div class="mdphoto">
-            <img src="imges/work/work1_thum.jpg" alt="">
+            <img src="imges/design2/design4_800.jpg" alt="">
         </div>
-        <button class="mdclose_btn last" type="button">닫기</button>
+        <button class="mdclose_btn last" type="button">X</button>
     </div>
     <div id="modal5" class="md_cnt">
         <div class="txtbox">
-            <h3>CJ SPAM <span>website redisign</span></h3>
+            <h3>쿠폰 디자인</h3>
             <div>
                 <strong>작업일시</strong>
-                <p>2020.12</p>
+                <p>2021.3</p>
             </div>
             <div>
                 <strong>프로그램</strong>
@@ -480,9 +584,9 @@
             </div>
         </div>
         <div class="mdphoto">
-            <img src="imges/work/work1_thum.jpg" alt="">
+            <img src="imges/design2/design5_800.jpg" alt="">
         </div>
-        <button class="mdclose_btn last" type="button">닫기</button>
+        <button class="mdclose_btn last" type="button">X</button>
     </div>
 
 </body>

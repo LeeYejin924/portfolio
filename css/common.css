@@ -52,12 +52,21 @@ body{font-family: "Noto Sans KR"; font-size: 16px; color: #444;}
 #cnt2 .text > div {position: absolute; top: 0; left: 0;}
 #cnt2 .skill {display: none;}
 #cnt2 .text strong {display: block; font-size: 48px; color: #f5e35d;}
-#cnt2 .text p {font-size: 24px;}
+#cnt2 .text .about p {font-size: 24px;}
 #cnt2 .text h3 {margin-top: 50px; margin-bottom: 5px; vertical-align: middle; font-size: 25px;}
 #cnt2 .text h3::before {content: ""; display: inline-block; width: 15px; height: 15px; background: #f5e35d; vertical-align: middle; margin-right: 10px;}
 #cnt2 .view {margin-top: 50px;}
 #cnt2 .skill .view img {transform: rotate(180deg);}
 #cnt2 .view img {height: 30px; vertical-align: middle; margin-left: 10px;}
+.skill ul li {display: flex; line-height: 25px; margin-bottom: 10px;}
+.skill ul li p {width: 100px;}
+.skill ul li div {width: 200px; position: relative;}
+.skill ul li div::after {content: ""; position: absolute; top: 5px; left: 0; height: 15px;}
+.html::after {width: 80%;  background: lightsalmon;}
+.css::after {width: 70%;  background: lightsalmon;}
+.jquery::after {width: 60%;  background: lightsalmon;}
+.ps::after {width: 90%;  background: lightsalmon;}
+.ai::after {width: 80%;  background: lightsalmon;}
 
 /* 본문3 */
 #cnt3 .subject_tit {position: absolute; top: 100px; left: 0; width: 100%;}
@@ -73,9 +82,11 @@ body{font-family: "Noto Sans KR"; font-size: 16px; color: #444;}
 .txtbox strong {margin-right: 15px;}
 .txtbox ul {display: flex; margin-top: 10px;}
 .txtbox ul li {width: 60px; height: 25px;}
-.txtbox ul li:nth-child(1) {background: #f7f7f7;}
-.txtbox ul li:nth-child(2) {background: #ffde52;}
-.txtbox ul li:nth-child(3) {background: #171e48;}
+
+
+#modal1 .txtbox ul li:nth-child(1) {background: #f7f7f7;}
+#modal1 .txtbox ul li:nth-child(2) {background: #ffde52;}
+#modal1 .txtbox ul li:nth-child(3) {background: #171e48;}
 .work {position: absolute; top: 20vh; left: 50%;}
 
 /* 사각형 회전 버튼 */
@@ -111,20 +122,29 @@ body{font-family: "Noto Sans KR"; font-size: 16px; color: #444;}
 #btn4 {left: 822px; top: 303px;}
 #btn5 {left: 1096px; top: 150px;}
 
-
 /* 열려질 상세 모달 */
 #dim, .md_cnt{position: fixed;z-index: 1000;}
 #dim{display: none;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,.5);}
 .md_cnt{visibility: hidden;width: 1400px;height: 750px;background: #fff;padding: 50px;top: 50%;left: 50%;transform: translate(-50%, -50%);}
-.md_cnt .mdclose_btn{position: absolute;right: 10px;top: 10px;width: 50px;height: 50px;background: pink;}
-.mdphoto{position: absolute; top: 5%; left: 60vh;}
+.md_cnt .mdclose_btn{position: absolute;right: 10px;top: 10px;width: 50px;height: 50px;background: lightgray; font-size: 20px;}
+.mdphoto{position: absolute; top: 12%; left: 50vh;}
 
 /* 본문5 */
-#cnt5 .subject_tit {position: absolute; top: 100px; left: 0; width: 100%;}
 #cnt5 .area {position: relative; height: 672px; text-align: center;}
-#cnt5 .my {margin-top: 250px;}
-#cnt5 .mybox {margin-top: 150px; line-height: 2;}
-#cnt5 .mybox .mytit {font-size: 30px; }
+#cnt5 ul {padding-top: 80px;}
+#cnt5 ul li {display: inline-block; margin: 0 20px;}
+#cnt5 ul li a {display: block; position: relative;}
+#cnt5 ul li a::before {content:""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6);}
+#cnt5 ul li a p {position: absolute; top: 50%; left: 0; width: 100%; transform: translateY(-50%); color: white; font-weight: 700; font-size: 20px;}
+#cnt5 ul li a::before, #cnt5 ul li a p {opacity: 0; transition: all 0.5s;}
+#cnt5 ul li a:hover:before, #cnt5 ul li a:focus:before, #cnt5 ul li a:hover p, #cnt5 ul li a:focus p{opacity: 1;}
+
+/* 본문6 */
+#cnt6 .subject_tit {position: absolute; top: 100px; left: 0; width: 100%;}
+#cnt6 .area {position: relative; height: 672px; text-align: center;}
+#cnt6 .my {margin-top: 250px;}
+#cnt6 .mybox {margin-top: 150px; line-height: 2;}
+#cnt6 .mybox .mytit {font-size: 30px; }
 
 @keyframes bounce {
     0% {
@@ -164,3 +184,7 @@ body{font-family: "Noto Sans KR"; font-size: 16px; color: #444;}
       top: 70px;
     }
   }
+
+  /* 본문3 더보기 */
+  #imgwarp {text-align: center;}
+  #imgwarp img {max-width: 100%;}
